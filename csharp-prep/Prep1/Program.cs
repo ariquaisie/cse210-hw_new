@@ -7,11 +7,11 @@ class Program
         string firstname;
         string lastname;
         Console.WriteLine("Hello Prep1 World!");
-        Console.Write("Please enter your first name ");
+        Console.Write("What is your first name? ");
         firstname=Console.ReadLine();
-        Console.Write("Please enter your last name ");
+        Console.Write("What is your last name? ");
         lastname=Console.ReadLine();
 
-        Console.WriteLine($"Your name is {firstname} {lastname}");
+        Console.WriteLine($"Your name is {lastname}, {firstname} {lastname}");
     }
 }
